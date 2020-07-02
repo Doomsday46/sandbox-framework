@@ -31,6 +31,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFC531AF24ADCC74000425F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2C99324AB1A6F00740518 /* Sandbox_framework.h */,
+				EFC531AC24ADC12F000425F6 /* TestClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		EFE2C98624AB1A6F00740518 = {
 			isa = PBXGroup;
 			children = (
@@ -50,9 +59,8 @@
 		EFE2C99224AB1A6F00740518 /* Sandbox-framework */ = {
 			isa = PBXGroup;
 			children = (
-				EFE2C99324AB1A6F00740518 /* Sandbox_framework.h */,
+				EFC531AF24ADCC74000425F6 /* Classes */,
 				EFE2C99424AB1A6F00740518 /* Info.plist */,
-				EFC531AC24ADC12F000425F6 /* TestClass.swift */,
 			);
 			path = "Sandbox-framework";
 			sourceTree = "<group>";
